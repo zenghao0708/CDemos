@@ -1,18 +1,16 @@
 //
-//  main.c
+//  sortingTest.h
 //  CDemos
 //
 //  Created by zenghao on 2016/11/6.
 //  Copyright © 2016年 zenghao0708. All rights reserved.
 //
 
+#ifndef sortingTest_h
+#define sortingTest_h
+
 #include <stdio.h>
-#include "sortingTest.h"
 
+void testSortingAlgorithms();
 
-int main(int argc, const char * argv[]) {
-    
-    testSortingAlgorithms();
-    
-    return 0;
-}
+#endif /* sortingTest_h */

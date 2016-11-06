@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE8B1DCED5F2007B5A81 /* main.c */; };
+		5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE931DCED897007B5A81 /* sortAlgorithm.c */; };
+		5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE971DCED980007B5A81 /* sortingTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		5D42EE881DCED5F2007B5A81 /* CDemos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDemos; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D42EE8B1DCED5F2007B5A81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5D42EE931DCED897007B5A81 /* sortAlgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortAlgorithm.c; sourceTree = "<group>"; };
+		5D42EE941DCED897007B5A81 /* sortAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortAlgorithm.h; sourceTree = "<group>"; };
+		5D42EE971DCED980007B5A81 /* sortingTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortingTest.c; sourceTree = "<group>"; };
+		5D42EE981DCED980007B5A81 /* sortingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortingTest.h; sourceTree = "<group>"; };
+		5D42EE9B1DCEDB12007B5A81 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +65,29 @@
 			isa = PBXGroup;
 			children = (
 				5D42EE8B1DCED5F2007B5A81 /* main.c */,
+				5D42EE961DCED966007B5A81 /* Sorting */,
+				5D42EE9A1DCED985007B5A81 /* Test */,
+				5D42EE9B1DCEDB12007B5A81 /* Common.h */,
 			);
 			path = CDemos;
+			sourceTree = "<group>";
+		};
+		5D42EE961DCED966007B5A81 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				5D42EE931DCED897007B5A81 /* sortAlgorithm.c */,
+				5D42EE941DCED897007B5A81 /* sortAlgorithm.h */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		5D42EE9A1DCED985007B5A81 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5D42EE971DCED980007B5A81 /* sortingTest.c */,
+				5D42EE981DCED980007B5A81 /* sortingTest.h */,
+			);
+			name = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */,
+				5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */,
+				5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
