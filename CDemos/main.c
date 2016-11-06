@@ -8,11 +8,13 @@
 
 #include <stdio.h>
 #include "sortingTest.h"
+#include "searchTest.h"
 
 
 int main(int argc, const char * argv[]) {
     
     testSortingAlgorithms();
+    testSearchAlgorithms();
     
     return 0;
 }

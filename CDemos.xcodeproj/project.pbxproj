@@ -10,6 +10,8 @@
 		5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE8B1DCED5F2007B5A81 /* main.c */; };
 		5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE931DCED897007B5A81 /* sortAlgorithm.c */; };
 		5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE971DCED980007B5A81 /* sortingTest.c */; };
+		5D42EE9F1DCF2303007B5A81 /* SearchAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE9D1DCF2303007B5A81 /* SearchAlgorithm.c */; };
+		5D42EEA21DCF2365007B5A81 /* searchTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EEA01DCF2365007B5A81 /* searchTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,10 @@
 		5D42EE971DCED980007B5A81 /* sortingTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortingTest.c; sourceTree = "<group>"; };
 		5D42EE981DCED980007B5A81 /* sortingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortingTest.h; sourceTree = "<group>"; };
 		5D42EE9B1DCEDB12007B5A81 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5D42EE9D1DCF2303007B5A81 /* SearchAlgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SearchAlgorithm.c; sourceTree = "<group>"; };
+		5D42EE9E1DCF2303007B5A81 /* SearchAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAlgorithm.h; sourceTree = "<group>"; };
+		5D42EEA01DCF2365007B5A81 /* searchTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchTest.c; sourceTree = "<group>"; };
+		5D42EEA11DCF2365007B5A81 /* searchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +70,11 @@
 		5D42EE8A1DCED5F2007B5A81 /* CDemos */ = {
 			isa = PBXGroup;
 			children = (
+				5D42EE9B1DCEDB12007B5A81 /* Common.h */,
 				5D42EE8B1DCED5F2007B5A81 /* main.c */,
+				5D42EE9C1DCF22A8007B5A81 /* Search */,
 				5D42EE961DCED966007B5A81 /* Sorting */,
 				5D42EE9A1DCED985007B5A81 /* Test */,
-				5D42EE9B1DCEDB12007B5A81 /* Common.h */,
 			);
 			path = CDemos;
 			sourceTree = "<group>";
@@ -86,8 +93,19 @@
 			children = (
 				5D42EE971DCED980007B5A81 /* sortingTest.c */,
 				5D42EE981DCED980007B5A81 /* sortingTest.h */,
+				5D42EEA01DCF2365007B5A81 /* searchTest.c */,
+				5D42EEA11DCF2365007B5A81 /* searchTest.h */,
 			);
 			name = Test;
+			sourceTree = "<group>";
+		};
+		5D42EE9C1DCF22A8007B5A81 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5D42EE9D1DCF2303007B5A81 /* SearchAlgorithm.c */,
+				5D42EE9E1DCF2303007B5A81 /* SearchAlgorithm.h */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,8 @@
 				5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */,
 				5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */,
 				5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */,
+				5D42EEA21DCF2365007B5A81 /* searchTest.c in Sources */,
+				5D42EE9F1DCF2303007B5A81 /* SearchAlgorithm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,8 @@ void testDirectInsert()
     for (int i = 0; i < SIZE(result); i++) {
         assert(arr[i] == result[i]);
     }
+    
+    TESTSUCCEED()
 }
 
 void testBubblingSort() {
@@ -36,6 +38,8 @@ void testBubblingSort() {
     for (int i = 0; i < SIZE(result); i++) {
         assert(arr[i] == result[i]);
     }
+    
+    TESTSUCCEED()
 }
 
 void testChooseSort() {
@@ -49,6 +53,8 @@ void testChooseSort() {
     for (int i = 0; i < SIZE(result); i++) {
         assert(arr[i] == result[i]);
     }
+    
+    TESTSUCCEED()
 }
 
 void testQuickSort() {
@@ -62,6 +68,8 @@ void testQuickSort() {
     for (int i = 0; i < SIZE(result); i++) {
         assert(arr[i] == result[i]);
     }
+    
+    TESTSUCCEED()
 }
 
 void testSortingAlgorithms()

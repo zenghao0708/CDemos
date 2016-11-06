@@ -10,6 +10,7 @@
 #define Common_h
 
 #define SIZE(T)  sizeof(T)/sizeof(T[0])
+#define TESTSUCCEED()  printf("%s succeed! \n", __FUNCTION__);
 
 
 #endif /* Common_h */
