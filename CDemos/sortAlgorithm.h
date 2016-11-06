@@ -14,5 +14,6 @@
 void directInsert(int A[],int N); //直接插入排序
 void chooseSort(int arr[], int zise); // 选择排序
 void bubblingSort(int arr[], int size); // 冒泡排序
+void quickSort(int arr[], int low, int high); // 快速排序
 
 #endif /* sortAlgorithm_h */

@@ -51,9 +51,23 @@ void testChooseSort() {
     }
 }
 
+void testQuickSort() {
+    int arr[] = {0, 20, 35, 5, 7};
+    int result[] = {0, 5, 7, 20, 35};
+    quickSort(arr, 0, SIZE(arr) - 1);
+    for (int i = 0; i < SIZE(arr); i++) {
+        printf("%d ", arr[i]);
+    }
+    assert(SIZE(arr) == SIZE(result));
+    for (int i = 0; i < SIZE(result); i++) {
+        assert(arr[i] == result[i]);
+    }
+}
+
 void testSortingAlgorithms()
 {
     testDirectInsert();
     testBubblingSort();
     testChooseSort();
+    testQuickSort();
 }

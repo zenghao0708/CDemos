@@ -16,19 +16,19 @@ void swap(int *a, int *b) {
 }
 
 //直接插入排序： 把新元素插入到已经排好序的序列中
-void directInsert(int A[],int N)
+void directInsert(int arr[],int N)
 {
     int j, t;
     for(int i = 1; i < N;i++)
     {
-        t=A[i];
+        t=arr[i];
         j=i-1;
-        while(A[j] > t)
+        while(arr[j] > t)
         {
-            A[j+1] = A[j];
+            arr[j+1] = arr[j];
             j--;
         }
-        A[j+1]=t;
+        arr[j+1]=t;
     }
 }
 
@@ -56,3 +56,28 @@ void bubblingSort(int arr[], int size)
     }
 }
 
+// 快速排序
+void quickSort(int arr[], int low, int high)
+{
+    if(low < high)
+    {
+        int t = arr[low];
+        int l = low, h = high;
+        while(l < h)
+        {
+            while( arr[l] < t )
+            {
+                l++;
+            }
+            while( arr[h] > t) {
+                h--;
+            }
+            if( h > l )
+            {
+                swap(arr + l, arr + h);
+            }
+        }
+        quickSort(arr, low, l-1);
+        quickSort(arr, l+1, high);
+    }
+}
