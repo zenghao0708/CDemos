@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2A00E21DEC3A9F006DC51A /* BTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A00E01DEC3A9F006DC51A /* BTree.c */; };
 		5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE8B1DCED5F2007B5A81 /* main.c */; };
 		5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE931DCED897007B5A81 /* sortAlgorithm.c */; };
 		5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D42EE971DCED980007B5A81 /* sortingTest.c */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D2A00E01DEC3A9F006DC51A /* BTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTree.c; sourceTree = "<group>"; };
+		5D2A00E11DEC3A9F006DC51A /* BTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
 		5D42EE881DCED5F2007B5A81 /* CDemos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDemos; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D42EE8B1DCED5F2007B5A81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5D42EE931DCED897007B5A81 /* sortAlgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortAlgorithm.c; sourceTree = "<group>"; };
@@ -57,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2A00DF1DEC3A6D006DC51A /* BTree */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A00E01DEC3A9F006DC51A /* BTree.c */,
+				5D2A00E11DEC3A9F006DC51A /* BTree.h */,
+			);
+			name = BTree;
+			sourceTree = "<group>";
+		};
 		5D42EE7F1DCED5F1007B5A81 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 		5D42EE8A1DCED5F2007B5A81 /* CDemos */ = {
 			isa = PBXGroup;
 			children = (
+				5D2A00DF1DEC3A6D006DC51A /* BTree */,
 				5D42EE9B1DCEDB12007B5A81 /* Common.h */,
 				5D42EEA31DCF30C6007B5A81 /* LinkNode */,
 				5D42EE8B1DCED5F2007B5A81 /* main.c */,
@@ -186,6 +199,7 @@
 			files = (
 				5D42EE8C1DCED5F2007B5A81 /* main.c in Sources */,
 				5D42EEA91DCF3115007B5A81 /* linknodeTest.c in Sources */,
+				5D2A00E21DEC3A9F006DC51A /* BTree.c in Sources */,
 				5D42EE951DCED897007B5A81 /* sortAlgorithm.c in Sources */,
 				5D42EE991DCED980007B5A81 /* sortingTest.c in Sources */,
 				5D42EEA61DCF30F7007B5A81 /* LinkNode.c in Sources */,
@@ -319,6 +333,7 @@
 				5D42EE911DCED5F2007B5A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
