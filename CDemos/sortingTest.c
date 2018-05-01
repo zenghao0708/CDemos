@@ -13,8 +13,10 @@
 
 void testDirectInsert()
 {
-    int arr[] = {0, 20, 35, 5, 7};
-    int result[] = {0, 5, 7, 20, 35};
+    int arr[] = {0, 20, 5, 35, 5, 7, 4, 8};
+    int result[] = {0, 4, 5, 5, 7, 8, 20, 35};
+
+    
     directInsert(arr, SIZE(arr));
     for (int i = 0; i < SIZE(arr); i++) {
         printf("%d ", arr[i]);
@@ -28,8 +30,9 @@ void testDirectInsert()
 }
 
 void testBubblingSort() {
-    int arr[] = {0, 20, 35, 5, 7};
-    int result[] = {0, 5, 7, 20, 35};
+    int arr[] = {0, 20, 5, 35, 5, 7, 4, 8};
+    int result[] = {0, 4, 5, 5, 7, 8, 20, 35};
+
     bubblingSort(arr, SIZE(arr));
     for (int i = 0; i < SIZE(arr); i++) {
         printf("%d ", arr[i]);
@@ -43,8 +46,9 @@ void testBubblingSort() {
 }
 
 void testChooseSort() {
-    int arr[] = {0, 20, 35, 5, 7};
-    int result[] = {0, 5, 7, 20, 35};
+    int arr[] = {0, 20, 5, 35, 5, 7, 4, 8};
+    int result[] = {0, 4, 5, 5, 7, 8, 20, 35};
+
     chooseSort(arr, SIZE(arr));
     for (int i = 0; i < SIZE(arr); i++) {
         printf("%d ", arr[i]);
@@ -58,8 +62,9 @@ void testChooseSort() {
 }
 
 void testQuickSort() {
-    int arr[] = {0, 20, 35, 5, 7};
-    int result[] = {0, 5, 7, 20, 35};
+    int arr[] = {0, 20, 5, 35, 5, 7, 4, 8};
+    int result[] = {0, 4, 5, 5, 7, 8, 20, 35};
+    
     quickSort(arr, 0, SIZE(arr) - 1);
     for (int i = 0; i < SIZE(arr); i++) {
         printf("%d ", arr[i]);
